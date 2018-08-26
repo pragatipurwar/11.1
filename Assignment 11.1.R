@@ -1,4 +1,6 @@
+
 # Import Zip File
+
 setwd("C:\\Users\\Pragati\\Desktop\\Assignment\\Assignment 11")
 data <- read.csv(unzip("epi_r.csv.zip", list = T)$Name[1])
 
