@@ -8,7 +8,7 @@ str(data)
 
 # check for NA
 sum(is.na(data))
-sort(sapply(data,sum(is.na(x))))
+sort(sapply(data, function(x) sum(is.na(x))))
 
 # impute missing values
 library(mice)
